@@ -42,15 +42,6 @@ def get_images(search_text, directory, num_images):
 
 
 def process_file(file_path, folder_path):
-    # with open(file_path, 'r') as file:
-    #     for line in file:
-    #         if not line.startswith('#'):
-    #             parts = line.split()
-    #             if len(parts) >= 2:
-    #                 num, text = parts[0], ' '.join(parts[1:])
-    #                 if 'king' in text.lower() or 'queen' in text.lower():
-    #                     print(f"Found in: {folder_path}/{file_path}")
-
     concatenated_text = ""
     lines_read = 0
     with open(file_path, 'r') as file:
@@ -65,14 +56,9 @@ def process_file(file_path, folder_path):
                         break
 
     if concatenated_text:
-        folder_name = os.path.basename(file_path).split('.')[0]
-        new_folder_path = os.path.join("Dataset", folder_name)
-        os.makedirs(new_folder_path, exist_ok=True)
-        sub_folder_path = os.path.join(new_folder_path, concatenated_text)
-        os.makedirs(sub_folder_path, exist_ok=True)
         words = re.split(r'_|__', concatenated_text)
         for word in words:
-            sub_sub_folder_path = os.path.join(sub_folder_path, word)
+            sub_sub_folder_path = os.path.join('Dataset', word)
             get_images(word, sub_sub_folder_path, 50)
 
 
