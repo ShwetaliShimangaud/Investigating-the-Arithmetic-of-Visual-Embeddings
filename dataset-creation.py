@@ -73,19 +73,19 @@ def process_file(file_path, folder_path):
         words = re.split(r'_|__', concatenated_text)
         for word in words:
             sub_sub_folder_path = os.path.join(sub_folder_path, word)
-            get_images(word, sub_sub_folder_path, 10)
+            get_images(word, sub_sub_folder_path, 50)
 
 
 def process_folder(folder_path):
     for file_path in glob.glob(os.path.join(folder_path, '*.txt')):
         process_file(file_path, folder_path)
-        break
+        
 
     for sub_folder in os.listdir(folder_path):
         sub_folder_path = os.path.join(folder_path, sub_folder)
         if os.path.isdir(sub_folder_path):
             process_folder(sub_folder_path)
-            break
+            
 
 
 # Path to the main 'data' folder
