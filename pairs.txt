@@ -8,15 +8,11 @@ hunger:starvation::sadness:depression
 crown:royalty::smoke:fire
 fail:succeed::attract:repel
 tired:exhaustion::morose:sadness
-read:book::play:instrument
-sunscreen:sunburn::vaccine:virus
 fire:cold::rainbow:monochromatic
-irreparable:fixed::impermeable:penetrated
 laugh:happiness::nod:agreement
 retiree:job::widow:husband
 unstable:fall::fragile:break
 harvesting:farming::stitching:sewing
-barber:scissors::surgeon:scalpel
 loss:grief::injury:pain
 breathe:live::study:learn
 bank:river::shore:lake
@@ -29,7 +25,6 @@ hot:cold::big:small
 omelette:eggs::ocean:water
 mask:face::makeup:blemish
 forward:backward::top:bottom
-woman:penis::infinite:end
 fragile:damaged::elastic:stretched
 arrhythmia:heartbeat::pimple:skin
 library:book::casino:cards

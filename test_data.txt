@@ -1,0 +1,5 @@
+hour:seconds::feet:inches
+kid:child::raise:elevate
+library:books::bird:feathers
+weapon:spear::bird:robin
+wash:clean::teach:educated
