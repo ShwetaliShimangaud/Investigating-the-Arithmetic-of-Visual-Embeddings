@@ -9,7 +9,6 @@ crown:royalty::smoke:fire
 fail:succeed::attract:repel
 tired:exhaustion::morose:sadness
 fire:cold::rainbow:monochromatic
-laugh:happiness::nod:agreement
 retiree:job::widow:husband
 unstable:fall::fragile:break
 harvesting:farming::stitching:sewing
