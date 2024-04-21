@@ -65,13 +65,11 @@ def process_file(file_path, folder_path):
 def process_folder(folder_path):
     for file_path in glob.glob(os.path.join(folder_path, '*.txt')):
         process_file(file_path, folder_path)
-        
 
     for sub_folder in os.listdir(folder_path):
         sub_folder_path = os.path.join(folder_path, sub_folder)
         if os.path.isdir(sub_folder_path):
             process_folder(sub_folder_path)
-            
 
 
 # Path to the main 'data' folder
