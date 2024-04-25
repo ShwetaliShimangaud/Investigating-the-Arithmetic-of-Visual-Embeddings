@@ -5,8 +5,8 @@ Image Dataset : https://drive.google.com/drive/folders/1S5zIpY8Tqayh_ln810Xa1CQ0
 ## Description of files:
 | File      | Description |
 | ----------- | ----------- |
-| Analogy-pairs      | list of word pairs used in our study       |
-| analogy-pair-creation   | Python script used for pre-processing of analogy pairs         |
+| Analogy-pairs.txt      | list of word pairs used in our study       |
+| analogy-pair-creation.py  | Python script used for pre-processing of analogy pairs         |
 | dataset-creation.py | Python script for creation of the image dataset   |
 | evaluate-arithmetic-properties.ipynb | Helper functions for evaluating arithmetic properties |
 | experiments.ipynb | Contains the experiments performed using different models |
